@@ -1,0 +1,56 @@
+Here is basic vim shortcuts
+
+:q - quit
+:w - write or save
+so you can :wq - save and quit
+
+a - insert text after cursor
+i - insert text before cursor
+o - insert new line below the cursor
+
+A - insert text end of line
+O - insert new line above the cursor
+
+
+**** NAVIGATION (DEFAULT MODE)****
+line up   -  k
+line down -  j
+left      -  h
+right     -  l  
+
+begin of line - ^
+end of line   - $
+
+next word     - w/W/[n]w
+previous word - b/B/[n]b
+
+end of the file -   G
+begin of the file - gg 
+
+******* UNDO / REDO *******
+u       - undo
+ctrl-r  - redo
+
+
+******* SEARCH ********
+/search_text - search document for search_text going forward
+?search_text - search document for search_text going backward
+n            - move to next result
+N            - move to previous result
+
+
+******* Replace *******
+:%s/original/replacement     - search and replace first result
+                        /g   - search and replace all
+                        /gc  - search and ask for every replace
+
+******* SELECT/DELETE LINE *********
+V    - select line
+d    - delete line after select
+dd   - just delete a line
+D    - delete line after cursor
+dw   - delete the word
+cw   - replace word from cursor
+
+>    - shift text right
+<    - shift text left
